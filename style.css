@@ -299,7 +299,7 @@ header {
     font-size: 14px;
 }
 .header_bottom__content {
-    padding-block: 50px;
+    padding-block: 40px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -331,6 +331,7 @@ header {
     color: rgb(31, 31, 161);
     font-size: 36px;
     font-weight: 600;
+    line-height: 2.5;
     text-shadow:
       -2px -2px 0 #fff,
        2px -2px 0 #fff,
@@ -342,7 +343,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 .header_bottom__content_links img {
     position: absolute;
@@ -420,10 +421,10 @@ header {
         top: 350px;
     }
     .header_bottom__content_subtitle {
-        font-size: 22px;
+        font-size: 18px;
     }
     .header_bottom__content_title {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 @media (max-width: 600px) {
@@ -461,11 +462,11 @@ header {
         padding: 70px 3px 3px 3px;
     }
     .card__title {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
     }
     .card__subtitle {
-        font-size: 8px;
+        font-size: 10px;
     }
     .header_bottom::after {
         height: 330px;
@@ -475,10 +476,15 @@ header {
     }
     .header_bottom__content_subtitle {
         padding-inline: 10%;
-        font-size: 18px;
+        font-size: 16px;
     }
     .header_bottom__content_title {
-        font-size: 18px;
+        font-size: 16px;
         padding-inline: 10%;
+    }
+}
+@media (max-width: 420px) {
+    .header_top__adresses {
+        font-size: 10px;
     }
 }
