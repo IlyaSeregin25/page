@@ -385,18 +385,18 @@ header {
         padding-block: 10px;
     }
     .contacts {
-        gap: 3px;
+        gap: 5px;
     }
     .header_top__adresses {
-        gap: 3px;
+        gap: 5px;
     }
     .header_top__logo img {
         width: 200px;
         height: 60px;
     }
     .contacts__social svg, .contacts__icon, .header_top__adresses svg {
-        width: 30px;
-        height: 30px;
+        /* width: 30px;
+        height: 30px; */
     }
     .contacts__telephone {
         font-size: 20px;
@@ -486,5 +486,9 @@ header {
 @media (max-width: 420px) {
     .header_top__adresses {
         font-size: 10px;
+    }
+    .header_top__logo img {
+        width: 120px;
+        height: 40px;
     }
 }
