@@ -487,6 +487,11 @@ header {
     .header_top__adresses {
         font-size: 10px;
     }
+}
+@media (max-width: 400px) {
+    .header_top__inner {
+        gap: 15px;
+    }
     .header_top__logo img {
         width: 120px;
         height: 40px;
